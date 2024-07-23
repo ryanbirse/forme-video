@@ -1,8 +1,0 @@
-
-# Set MIME type for MP4
-AddType video/mp4 .mp4
-
-# Enable CORS for MP4 files
-<FilesMatch "\.(mp4)$">
-    Header set Access-Control-Allow-Origin "*"
-</FilesMatch>
